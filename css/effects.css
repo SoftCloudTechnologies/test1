@@ -1,0 +1,20 @@
+/*Variables*/
+:root{
+    --font1:'Baloo Bhaina 2',cursive;
+    --font2:'Ubuntu Condensed',sans-serif;
+    --red-color:red;
+    --main-color:rgb(156, 1, 156);
+}
+/*Effects*/
+.nav-list a{
+    color: white;
+}
+.nav-list a:hover{
+    color: var(--main-color);   
+}
+.coverpg a:hover{
+    background-color: var(--main-color);
+}
+.footer{
+    background-color: purple;
+}

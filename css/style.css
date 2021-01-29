@@ -1,0 +1,141 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Ubuntu+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Variables*/
+:root{
+    --font1:'Baloo Bhaina 2',cursive;
+    --font2:'Ubuntu Condensed',sans-serif;
+    --main-color:purple;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 75vw;
+}
+.margin-auto{
+    margin: auto;
+}
+.left-margin-auto{
+    margin-left: auto;
+}
+/*Landing Page*/
+#landing-pg{
+    background: rgba(0, 0, 0, 0.7) url(../img/banner.jpg) no-repeat 0px 0px fixed;
+    background-blend-mode: darken;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    z-index: -10;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    background-position: center center;
+} 
+#landing-pg::after{
+    content: "";
+    padding: 20px;
+}
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-height: inherit;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.nav-list li{
+    padding: 40px;
+    margin: 5px;
+}
+/*Navbar logo*/
+.logo{
+    align-self: center;
+}
+
+/*Cover Page*/
+.coverpg-about{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+.coverpg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+.coverpg h1{
+    color: white;
+    font-size: 2.3rem;
+    padding: 1px;
+}
+.coverpg p{
+    color: white;
+    font-size: 1.8rem;
+}
+.coverpg a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgb(196, 39, 39);
+    width: 100px;
+    padding: 1px;
+    transition: all 0.60s ease-in-out;
+}
+.coverpg img{
+     width: 300px;
+     height: 300px;
+     border: 3px solid white;
+     border-radius: 200px;
+}
+/*Dates Page*/
+.dates h1{
+    font-size: 2.4rem;
+}
+/*Venue Page*/
+.venue h1{
+    font-size: 2.4rem;
+}
+/*About Page*/
+.about h1{
+    font-size: 2.4rem;
+}
+.about{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+/*Footer*/
+.footer h1{
+    text-align: center;
+    padding: 5px;
+}
+.footer div{
+    text-align: center;
+}

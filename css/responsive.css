@@ -1,0 +1,75 @@
+@media screen and (max-width: 851px){
+    .max-width-1{
+        max-width: 300px;
+    }
+    html{
+        min-height: 100%;
+    }
+    body{
+        min-height: 100%;
+        background-size: cover;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: inherit;
+        margin: auto;
+    }
+    .nav-list{
+        margin: auto;
+    }
+    .logo{
+        margin: auto;
+    }
+    .logo{
+        width: auto;
+        /* height: inherit; */
+    }
+    .nav-list ul{
+        margin: auto;
+    }
+    .nav-list ul li{
+        padding:8px;
+    }
+    .nav-hr{
+        margin: auto;
+    }
+    .landing-pg{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        position: relative;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .coverpg{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .coverpg a{
+        text-align: center;
+        align-self: center;
+    }
+    .dates h1{
+        text-align: center;
+    }
+    .venue h1{
+        text-align: center;
+    }
+    .about h1{
+        text-align: center;
+    }
+}
+@media screen and (width: 320px){
+    body{
+        width: 59vh;
+    }
+}
+@media screen and (width: 280px){
+    body{
+        width: 100vw;
+    }
+}

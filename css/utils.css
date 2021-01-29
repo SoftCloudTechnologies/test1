@@ -1,0 +1,36 @@
+.line{
+    background-color: white;
+    width: 108px;
+    height: 3px;
+}
+.logo-line{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.logo span{
+    font-size: 1.6rem;
+    color:white;
+}
+.logo div{
+    font-size: 1.6rem;
+}
+.logo a{
+    text-decoration: none;
+}
+.dates div{
+    font-size: 1.5rem;
+}
+.venue div{
+    font-size: 1.5rem;
+}
+.about p{
+    font-size: 1.5rem;
+}
+.footer div{
+    font-size: 1.4rem;
+    color:white;
+}
+.footer h1{
+    color: white;
+}
